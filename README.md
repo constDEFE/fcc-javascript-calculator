@@ -1,4 +1,4 @@
-# fcc-javascript-calculator
+# JavaScript Calculator
 
 ## _Vite, React, TS and SCSS_
 
