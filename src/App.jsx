@@ -83,7 +83,7 @@ const Calculator = () => {
 
     wcExp = wcExp.replace(/[*\/+-]+$/, "");
 
-    const answer = eval(wcExp).toString();
+    const answer = (Math.round(eval(wcExp) * 1000000000000) / 1000000000000).toString();
 
     setExpression(wcExp + "=" + answer);
     setInput(answer);
